@@ -8,3 +8,8 @@ GoLang Tutorial: https://developers.google.com/protocol-buffers/docs/gotutorial
  - `sudo apt-get install autoconf automake libtool curl make g++ unzip`
  - `cd protobuf`
  - `./autogen.sh`
+ - `./configure`
+ - `make`
+ - `make check`
+ - `sudo make install`
+ - `sudo ldconfig` # To refresh shared library cache.
